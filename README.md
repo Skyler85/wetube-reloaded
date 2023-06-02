@@ -1,9 +1,10 @@
 # Wetube Reloaded
 
---   
-# index   
+--
+
+# index
+
 - [folder tree](#folder-tree)
-   
 - [start set-up](#1-set-up)
 - [first : Routers & Controllers](#2-router)
 
@@ -24,17 +25,13 @@ Root
           +--- videoRouter.js
 ```
 
-
-
-
-
 ## I do..
 
 ### 1. Set up
 
 1. Install NodeJs
 
-2. Install Expess : minimalist web framework for Node.js.
+2. Install Express : minimalist web framework for Node.js.
 
 3. Learned about Dependencies in 'package.json'
 
@@ -47,32 +44,37 @@ Root
 1. Used express
 
 2. Created a list of routers
-     / -> Home   
-     /join -> Join   
-     /login -> Login   
-     /search -> Search   
-        
-     /users/:id -> See user   
-     /users/logout -> Log Out
-     /users/edit -> Edit My Profile   
-     /users/remove -> Delete My Profile  
-         
-     /videos/:id -> See Video   
-     /videos/:id/edit -> Edit Video   
-     /videos/:id/remove -> Remove Video   
-     /videos/upload -> Upload Video     
+   / -> Home  
+    /join -> Join  
+    /login -> Login  
+    /search -> Search
 
-3. Cleaning the Code :   
-     - Divide folder (/routers, /controllers)   
-     - Exports & Imports   
-     ( defualt or not )   
-   
-4. Architecture   
-     - Planning Routes : Add directory => Export & Import   
-     - URL Parameters : learn about ':id'   
-          Declare variables inside URL   
-   
------  finish🔺 🔰 🔻next  -----   
-     
-5. Returning HTML   
-     #5.0
+   /users/:id -> See user  
+    /users/logout -> Log Out
+   /users/edit -> Edit My Profile  
+    /users/remove -> Delete My Profile
+
+   /videos/:id -> See Video  
+    /videos/:id/edit -> Edit Video  
+    /videos/:id/remove -> Remove Video  
+    /videos/upload -> Upload Video
+
+3. Cleaning the Code :
+   - Divide folder (/routers, /controllers)
+   - Exports & Imports  
+     ( default or not )
+4. Architecture
+   - Planning Routes : Add directory => Export & Import
+   - URL Parameters : learn about ':id'  
+      Declare variables inside URL
+
+5. Returning HTML
+
+   - Install & Configuring Pug
+   - New file 'home.pug'
+   - Write in HTML
+       
+----- finish🔺 🔰 🔻next -----
+
+
+   #5.2 Partials
