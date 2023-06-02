@@ -1,4 +1,5 @@
 # Wetube Reloaded
+--
 
 --
 
@@ -8,22 +9,9 @@
 - [start set-up](#1-set-up)
 - [first : Routers & Controllers](#2-router)
 
-## folder tree
+/join -> Join
 
-```bash
-Root
----- package.json
----- package-lock.json
----- src
-     +--- server.js
-     +--- controllers
-          +--- userController.js
-          +--- videoController.js
-     +--- routers
-          +--- globalRouter.js
-          +--- userRouter.js
-          +--- videoRouter.js
-```
+/login -> Login
 
 ## I do..
 
