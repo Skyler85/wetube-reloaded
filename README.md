@@ -9,9 +9,6 @@
 - [start set-up](#1-set-up)
 - [first : Routers & Controllers](#2-router)
 
-/join -> Join
-
-/login -> Login
 
 ## I do..
 
@@ -31,38 +28,41 @@
 
 1. Used express
 
-2. Created a list of routers
-   / -> Home  
-    /join -> Join  
-    /login -> Login  
-    /search -> Search
+2. Created a list of routers    
+   
+   / -> Home    
+   /join -> Join    
+   /login -> Login    
+   /search -> Search    
+    
+   /users/:id -> See user    
+   /users/logout -> Log Out    
+   /users/edit -> Edit My Profile    
+   /users/remove -> Delete My Profile  
 
-   /users/:id -> See user  
-    /users/logout -> Log Out
-   /users/edit -> Edit My Profile  
-    /users/remove -> Delete My Profile
-
-   /videos/:id -> See Video  
-    /videos/:id/edit -> Edit Video  
-    /videos/:id/remove -> Remove Video  
-    /videos/upload -> Upload Video
-
+   /videos/:id -> See Video    
+   /videos/:id/edit -> Edit Video    
+   /videos/:id/remove -> Remove Video   
+   /videos/upload -> Upload Video    
+    
 3. Cleaning the Code :
+    
    - Divide folder (/routers, /controllers)
    - Exports & Imports  
-     ( default or not )
-4. Architecture
+     ( default or not )    
+         
+4. Architecture    
+    
    - Planning Routes : Add directory => Export & Import
    - URL Parameters : learn about ':id'  
       Declare variables inside URL
 
 5. Returning HTML
 
-   - Install & Configuring Pug
-   - New file 'home.pug'
-   - Write in HTML
+   - Install & Configuring Pug    
+   - New file 'home.pug'    
+   - Write in HTML    
        
------ finish🔺 🔰 🔻next -----
-
-
+----- finish🔺 🔰 🔻next -----    
+    
    #5.2 Partials
