@@ -12,6 +12,7 @@ const app = express();
 const logger = morgan("dev");
 
 app.set("view engine", "pug");
+app.set("views", process.cwd() + "/src/views"); // views 폴더 디폴트위치 변경
 app.use(logger);
 app.use("/", globalRouter);
 app.use("/users", userRouter);
