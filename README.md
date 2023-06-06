@@ -3,7 +3,7 @@
 
 --
 
-# index
+## index
 
 - [folder tree](#folder-tree)
 - [start set-up](#1-set-up)
@@ -11,7 +11,7 @@
 
 ### folder-tree
 
-## I do..
+## To do
 
 ### 1. Set up
 
@@ -49,8 +49,7 @@
 3. Cleaning the Code :
     
    - Divide folder (/routers, /controllers)
-   - Exports & Imports  
-     ( default or not )    
+   - Exports & Imports ( default or not )    
          
 4. Architecture    
     
@@ -66,14 +65,33 @@
    - New file 'home.pug'    
    - Write in HTML    
    - process.cwd() + '/views' default property modify.
-
       
 2. Partials    
     
    - make folder 'partials' and partials file.    
    - include partials file.    
+   - Extending Templates ( inheritance : base HTML template)
+      https://pugjs.org/language/inheritance.html
+
+   + MVP Styles
+
+   - Template :
+      a. conditionals : if, if else, else..
+         https://pugjs.org/language/conditionals.html
+      b. iteration : each, while.. showing list of elements 
+         https://pugjs.org/language/iteration.html
+      c. mixins : Mixins allow you to create reusable blocks of Pug.
+         Mixin is like a partial, but is a partial that receive data.
+   
+### 4. Database ( MongoDB )
+
+1. See only one video
+
+   - change on my 'see' controller    
+   - Upload & Edit video    
+   - Edit video page
        
 ----- finish🔺 🔰 🔻next -----    
     
-   #5.2 Extending Templates
+   #6.2 Edit Video part One (04:40)
 

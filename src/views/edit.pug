@@ -1,8 +1,8 @@
-doctype html 
-html(lang="ko")
-    head 
-        title Wetube 
-    body 
-        h1 Edit
-    include partials/footer.pug
-        
+extends base.pug
+
+
+block content
+    h4 Change Title of video
+    form(action="")
+        input(placeholder="Video Title",value=video.title,repuired)
+        input(value="Save", type="submit")
