@@ -89,9 +89,32 @@
 
    - change on my 'see' controller    
    - Upload & Edit video    
-   - Edit video page
-       
+
+2. Edit video page
+
+   - POST Method    
+   - Add urlencoded(extended) in server.js !middleware-before Routers
+      https://expressjs.com/ko/4x/api.html#express.urlencoded
+
+3. Upload video page
+
+   - Add controller & push new Video in array
+
+4. Install Database
+
+   - MongoDB    
+   - Mongoose
+
+5. CRUD Introduction
+
+   - CRUD Real Html page
+      Create
+      Read
+      Update
+      Delete
+
+   
+
 ----- finish🔺 🔰 🔻next -----    
     
-   #6.2 Edit Video part One (04:40)
-
+   #6.10 Video Model (01:37)
